@@ -1,0 +1,55 @@
+﻿@model TermProject.Models.Customer
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $.fn.snow();
+    });
+</script>
+
+
+
+<div class="login">
+
+    <h1 class="color_11">Login</h1>
+
+    @using (Html.BeginForm("Verify", "Login", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <table class='center'>
+            <tr>
+                <td>@Html.TextBoxFor(n => n.Name, new { placeholder = "UserName", required = "required" })</td>
+            </tr>
+            <tr>
+                <td>@Html.TextBoxFor(n => n.Password, new { type = "password", placeholder = "Password", required = "required" })</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" class="button">Login</button></td>
+
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2">Not member yet? Click <a href="/SignUp/Signup">here</a> to register.</td>
+
+            </tr>
+        </table>
+    }
+</div>
+
+<footer>
+    <p></p>
+</footer>
+
+

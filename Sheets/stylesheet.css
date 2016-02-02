@@ -1,0 +1,501 @@
+/*
+		   *****************
+		   * =banner   
+		   *****************
+		   						*/
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-inner {
+    height: 300px;
+}
+
+/*
+		   *****************
+		   * =header   
+		   *****************
+		   						*/
+header {
+    background-color: #610B38;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+    header h1 {
+        float: left;
+        margin: 10px 10px 20px;
+    }
+
+/*
+ 		   *****************
+ 		   * =nav   
+ 		   *****************
+ 		   						*/
+.navbar navbar-inverse {
+    width: 960px;
+    height: 100px;
+}
+
+
+
+
+
+
+/*
+		   *****************
+		   * =main   
+		   *****************
+		   						*/
+.main {
+    margin-top: 20px;
+}
+/*.container-flow {
+    margin: 20px;
+    padding: 10px;
+   
+}*/
+
+.container_12 {
+    margin-top: 5px;
+    background-color: rgba(223, 200, 159, 0.82);
+}
+
+.grid_6 {
+    border-top: 3px solid #610B38;
+    margin: 10px;
+    padding: 20px;
+}
+
+.grid_12 {
+    border-top: 3px solid #610B38;
+}
+
+.grid_3 {
+    margin: 10px;
+}
+
+
+/*
+		   *****************
+		   * =miscellaneous   
+		   *****************
+		   						*/
+
+body {
+    font-size: 12px;
+    background-image: url(../Images/123.jpg);
+    background-repeat: round;
+}
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+h5 {
+    font-size: 26px;
+}
+
+
+li {
+    margin-left: 24px;
+}
+
+.button {
+    background: #610B38;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #FFFFFF;
+    max-width: 300px;
+    margin-left: 10px;
+}
+
+.color_11 {
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.font_8 {
+    letter-spacing: normal;
+    font-family: sans-serif;
+    color: #610B38;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #610B38;
+    overflow: hidden;
+    margin: 0px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.grid_3 img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.grid_3 p {
+    text-align: center;
+}
+
+.grid_3 a {
+    color: #610B38;
+    text-decoration: none;
+}
+
+    .grid_3 a:hover {
+        color: #610B38;
+        text-decoration: none;
+    }
+
+.signup {
+    background-image: url(../Images/signup.jpg);
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    text-align: center;
+}
+
+.signup button {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+.login {
+    background: url(../Images/12.jpg);
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding: 10px;
+}
+
+    .login button {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+.text input {
+    word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+}
+#ema {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+}
+#Password {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+}
+#Name {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#id {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Cid {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#price {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Sid {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#SCid {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Sprice {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Bid {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#CBid {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Bprice {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Aid {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#ACid {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Aprice {
+     word-spacing: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 15px;
+    
+}
+#Image {
+   
+    width: 300px;
+    padding: 15px;
+    color: whitesmoke;
+}
+
+label {
+    margin: 10px;
+    color: whitesmoke;
+}
+
+table.center{ 
+    margin-left:auto; margin-right:auto; 
+
+}
+.error { 
+    font-family: verdana,arial; color: #FF0000; font-size: 0.80em; 
+
+}
+td {
+    text-align:center;
+}
+#em {
+    background: #610B38;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #FFFFFF;
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+td a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #610B38;
+    text-decoration: none;
+}
+td a:hover {
+    text-decoration: none;
+}
+
+
+/*
+		   *****************
+		   * =clothes  
+		   *****************
+		   						*/
+.row img {
+    border: none;
+    border-radius: 50px;
+    max-height: 400px;
+    max-width: 300px;
+    border-color: none;
+    /*padding-right: 20px;*/
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.row p {
+    font-family: Arial;
+    font-size: 15px;
+    color: #610B38;
+    text-align: center;
+}
+
+.row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#map {
+    width: 940px;
+    height: 400px;
+}
+
+textarea {
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+/*.panel-danger {
+    background-color: #ebccd1;
+
+}*/
+.panel {
+    margin-top: 10px;
+    width: 900px;
+}
+
+.panel-body {
+    width: 900px;
+}
+
+.panel-footer {
+    width: 900px;
+    margin-bottom: 10px;
+}
+
+.table-text {
+    font-family: Arial;
+    color: #610B38;
+}
+
+.check button {
+    max-width: 100px;
+}
+
+.set {
+    margin-right: 100px;
+}
+
+.green {
+    color: Green;
+}
+
+.red {
+    color: Red;
+}
+.admin {
+    background: url(../Images/dark-website-backgrounds.png);
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+}
+.ref {
+    background-color:palegoldenrod;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+    height: 50px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 18px;
+}
+.nav-pills li{
+    background-color: #610B38;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: white;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}

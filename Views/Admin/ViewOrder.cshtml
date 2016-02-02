@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<table>
+    <tr>
+        <td>Item Id</td>
+        <td>Item Quantity</td>
+        <td>User Id</td>
+    </tr>
+    @foreach (var n in Model)
+    {
+        <tr>
+            <td>@n.ItemId</td>
+            <td>@n.Quantity</td>
+            <td>@n.UserId</td>
+        </tr>
+    }
+</table>

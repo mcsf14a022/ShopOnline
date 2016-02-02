@@ -1,0 +1,100 @@
+﻿@model TermProject.Models.CartItem
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<div class="row">
+    <div class="col-md-12 col-xs-12">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5><span class="glyphicon glyphicon-shopping-cart"></span>My Cart</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary btn-sm pull-right"><span class="glyphicon glyphicon-share-alt"></span>Continue Shopping</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="panel-body">
+            <table class="col-md-12">
+                <tr>
+                    <td class="col-md-3">
+                        <span class="table-text"><strong>Product Code</strong></span>
+                    </td>
+                    <td class="col-md-3">
+                        <span class="table-text"><strong>Price</strong></span>
+                    </td>
+                </tr>
+
+            </table>
+       
+</div>
+
+@*<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+							<td class="image">Item</td>
+							<td class="quantity">Quantity</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+                        @foreach(var n in ViewBag.n){
+						<tr>
+							<td class="cart_product">
+								<a ><img src="@n.itemId" alt=""></a>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									
+									<input class="cart_quantity_input" type="text" name="quantity" value="@n.quantity" autocomplete="off" size="2">
+								</div>
+							</td>
+						</tr>}
+
+						
+					</tbody>
+				</table>
+			</div>
+		</div>*@
+
+@*<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+							<td class="image">Item</td>
+							<td class="quantity">Quantity</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+                        @foreach(var n in ViewBag.n){
+						<tr>
+							<td class="cart_product">
+								<a ><img src="@n.itemId" alt=""></a>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									
+									<input class="cart_quantity_input" type="text" name="quantity" value="@n.quantity" autocomplete="off" size="2">
+								</div>
+							</td>
+						</tr>}
+
+						
+					</tbody>
+				</table>
+			</div>*@
+<footer>
+    <p></p>
+</footer>

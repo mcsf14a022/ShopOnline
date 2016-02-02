@@ -1,0 +1,188 @@
+﻿@model TermProject.Models.CartItem
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+@using (Html.BeginForm("AddToCart", "MyCart", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container_12">
+        <div class="row">
+            <h5 class="font_8 col-lg-12 col-md-12 col-sm-12">Clothes</h5>
+        </div>
+
+        <div class="row">
+            <a href="#">
+                <img src="~/Images/Latest-Dazzling-Collection-2012-by-Silk-And-Thread-13-600x453.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+            <a href="#">
+                <img src="~/Images/Latest-Dazzling-Collection-2012-by-Silk-And-Thread-2-600x447.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+            <a href="#">
+                <img src="~/Images/Latest-Women-Trendy-Stylish-Kurta-designs-by-Change-Kurta-Collection-2015-2016-31.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+        </div>
+        <div class="row">
+            <p class="col-md-4 col-lg-4 col-sm-4">Code # 01<br />
+                US $ 45</p>
+            <p><span class="center col-md-4 col-lg-4 col-sm-4">Code # 02<br />
+                US $ 45</span></p>
+            <p><span class="right col-md-4 col-lg-4 col-sm-4">Code # 03<br />
+                US $ 40</span></p>
+
+        </div>
+        <div class="row">
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+
+        </div>
+        <div class="row">
+            <a href="#">
+                <img src="~/Images/Silk-and-Thread-Dazzling-2012-Collection-5.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+            <a href="#">
+                <img src="~/Images/Silk-And-Thread-Latest-Embroidery-Dresses-for-Women-3.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+            <a href="#">
+                <img src="~/Images/Thredz-Summer-Dresses-For-Women-2012-15.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+        </div>
+        <div class="row">
+            <p class="col-md-4 col-lg-4 col-sm-4">Code # 04<br />
+                US $ 45</p>
+            <p><span class="center col-md-4 col-lg-4 col-sm-4">Code # 05<br />
+                US $ 45</span></p>
+            <p><span class="right col-md-4 col-lg-4 col-sm-4">Code # 06<br />
+                US $ 30</span></p>
+
+        </div>
+        <div class="row">
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+
+        </div>
+        <div class="row">
+            <a href="#">
+                <img src="~/Images/2%20(5).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+            <a href="#">
+                <img src="~/Images/2%20(7).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+            <a href="#">
+                <img src="~/Images/black.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+
+            </a>
+        </div>
+        <div class="row">
+            <p class="col-md-4 col-lg-4 col-sm-4">Code # 07<br />
+                US $ 25</p>
+            <p><span class="center col-md-4 col-lg-4 col-sm-4">Code # 08<br />
+                US $ 25</span></p>
+            <p><span class="right col-md-4 col-lg-4 col-sm-4">Code # 09<br />
+                US $ 20</span></p>
+
+        </div>
+        <div class="row">
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+
+        </div>
+        <div class="row">
+            <a href="#">
+                <img src="~/Images/red.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+            <a href="#">
+                <img src="~/Images/skin.jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+            <a href="#">
+                <img src="~/Images/1%20(1).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+        </div>
+        <div class="row">
+            <p class="col-md-4 col-lg-4 col-sm-4">Code # 10<br />
+                US $ 25</p>
+            <p><span class="center col-md-4 col-lg-4 col-sm-4">Code # 11<br />
+                US $ 25</span></p>
+            <p><span class="right col-md-4 col-lg-4 col-sm-4">Code # 12<br />
+                US $ 20</span></p>
+
+        </div>
+        <div class="row">
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+
+        </div>
+        <div class="row">
+            <a href="#">
+                <img src="~/Images/3%20(1).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+            <a href="#">
+                <img src="~/Images/2%20(3).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+            <a href="#">
+                <img src="~/Images/2%20(6).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+        </div>
+        <div class="row">
+            <p class="col-md-4 col-lg-4 col-sm-4">Code # 13<br />
+                US $ 35</p>
+            <p><span class="center col-md-4 col-lg-4 col-sm-4">Code # 14<br />
+                US $ 10</span></p>
+            <p><span class="right col-md-4 col-lg-4 col-sm-4">Code # 15<br />
+                US $ 10</span></p>
+
+        </div>
+        <div class="row">
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4" value="AddToCart">Add to Cart</button>
+
+        </div>
+        <div class="row">
+            <a href="#">
+                <img src="~/Images/2%20(1).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+            <a href="#">
+                <img src="~/Images/3%20(3).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+            <a href="#">
+                <img src="~/Images/3%20(4).jpg" class="col-md-4 col-lg-4 col-sm-4" />
+            </a>
+        </div>
+        <div class="row">
+            <p class="col-md-4 col-lg-4 col-sm-4">Code # 16<br />
+                US $ 10</p>
+            <p><span class="center col-md-4 col-lg-4 col-sm-4">Code # 17<br />
+                US $ 10</span></p>
+            <p><span class="right col-md-4 col-lg-4 col-sm-4">Code # 18<br />
+                US $ 10</span></p>
+
+        </div>
+        <div class="row">
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4">Add to Cart</button>
+            <button type="submit" class="button col-md-4 col-lg-4 col-sm-4">Add to Cart</button>
+
+        </div>
+
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+}
+
+

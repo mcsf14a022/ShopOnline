@@ -1,0 +1,48 @@
+﻿@model TermProject.Models.Item
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<div class="admin">
+    <h1 class="color_11">Add Accessories</h1>
+    @using (Html.BeginForm("AddAcc", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <table class="center">
+            <tr>
+                <td>@Html.LabelFor(i => i.Id)</td>
+                <td>@Html.TextBoxFor(i => i.Id, new { id = "Aid" })</td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(i => i.CategoryId)</td>
+                <td>@Html.TextBoxFor(i => i.CategoryId, new { id = "ACid" })</td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(i => i.Price)</td>
+                <td>@Html.TextBoxFor(i => i.Price, new { id = "Aprice" })</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(i => i.Image)</td>
+                <td>@Html.TextBoxFor(i => i.Image, new { type = "file" })</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" class="button">Add</button>
+
+                </td>
+            </tr>
+
+        </table>        
+     
+    }
+</div>
+<footer>
+    <p></p>
+</footer>
+
+

@@ -1,0 +1,75 @@
+﻿@model TermProject.Models.Customer
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<script>
+    $(document).ready(function () {
+        $.fn.snow();
+    });
+</script>
+
+
+<script>
+    $(document).ready(function () {
+
+        $('#checking').hide();
+
+        $('#em').click(function () {
+
+            var userName = $('#Name').val();
+
+            $('#checking').show();
+            $.getJSON("/SignUp/CheckUser?UserName=" + userName, function (data) {
+                $('#checking').hide();
+                if (data) {
+                    $('#result').text("User Name available");
+                    result.style.color = 'green';
+
+                }
+                else {
+                    $('#result').text("User Name is not available");
+                    result.style.color = 'red'
+                }
+            });
+
+        });
+
+    });
+</script>
+
+
+<div class="signup">
+    <h1 class="color_11">Sign Up</h1>
+    <button class="button" id="em">Check</button>
+    <div id="result"></div>
+    @using (Html.BeginForm("Add", "SignUp", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div id="checking">Checking...</div>
+        <table class="center">
+            <tr>
+                <td><span class="set">@Html.TextBoxFor(n => n.Name, new { id = "Name", placeholder = "UserName", required = "required" })</span>
+                @*<td><button class="button" id="em">Check</button></td> *@
+            </tr>
+            <tr>
+                <td>@Html.TextBoxFor(n => n.Password, new { type = "password", placeholder = "Password", required = "required" })</td>
+            </tr>
+            <tr>
+                <td>@Html.TextBoxFor(n => n.Email, new { type ="email" ,id = "ema", placeholder = "Email", required = "required" })</td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="submit" class="button">SignUp</button></td>
+            </tr>
+        </table>
+    }
+</div>
+<footer>
+    <p></p>
+</footer>
